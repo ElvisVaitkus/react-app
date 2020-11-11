@@ -1,10 +1,34 @@
 $yellow: #fcd200;
-$pink: #feb3c1;
+$purple: #800080;
+
+* {
+	margin: 1.5;
+	box-sizing: border-box;
+}
 
 .app {
+	background-color : grey;
 
-  nav {
-    background-color: $yellow;
-  }
-  
+	nav {
+		background-color: $yellow;
+	}
+	  
+	footer {
+		background-color: $purple;
+	}
+	  
+	h3{
+		text-align: center;
+		color: purple;
+		font-size: 200%;
+	}
+	
+	p {
+		color: $yellow;
+	}
+	
+	input{
+		padding: 3px;
+	}
+	
 }
